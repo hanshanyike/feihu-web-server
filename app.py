@@ -6,7 +6,6 @@ import json
 from flask import Flask,request,make_response
 from flask import redirect, url_for, abort, render_template, flash
 from flask_sqlalchemy import SQLAlchemy
-from flask_wtf import FlaskForm
 from wtforms import SubmitField, TextAreaField
 from wtforms.validators import DataRequired
 
